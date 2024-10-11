@@ -1,0 +1,3 @@
+I created this project to showcase my skills in web development and UI/UX design. The website features a modern and stylish layout, combining functionality and aesthetics to enhance user experience.
+The website is dedicated to showcasing the "SpedArab" bicycle model, emphasizing its performance, style, and customer satisfaction. Users can easily navigate through sections such as Bikes, About Us, and Service & Support to learn more about the product and our company. The site is designed to be responsive and visually appealing, making it accessible on various devices.
+Feel free to explore and provide your feedback!

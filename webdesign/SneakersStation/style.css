@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #fff; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; 
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    transform: skew(-5deg);
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.brands img {
+    width: 170px;
+    height: 35px;
+    object-fit: contain;
+    margin: 0 10px;
+}
+
+.hero {
+    background-image: url("assets/menu.png");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.discover-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: #fff;
+}
+
+.category {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.category h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    color: white; /* Menambahkan warna putih untuk semua teks di footer */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: white; /* Pastikan semua paragraf di footer berwarna putih */
+}

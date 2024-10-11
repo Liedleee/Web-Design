@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex; 
+    flex-direction: column; 
+    font-family: 'Montserrat', sans-serif;
+    background: url('assets/bgpolooos.png') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black; 
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff006e;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 20px 20px; 
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    margin-bottom: 15%;
+}
+
+.left-section h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+    width: 80%;
+    padding: 10%;
+}
+
+.highlight {
+    color: #ff006e;
+    font-size: 30px;
+
+}
+
+.deskripsi {
+    display: flex;
+    
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 70%;
+    font-size: large;
+}
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 150px;
+    background-color: #ff006e;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.btn:hover {
+    background-color: #ff3366;
+}
+
+.reviews {
+    align-items: center;
+    margin-bottom: 400%;
+    margin-left: 200%;
+    color: white;
+    background-color: #ff006e;
+    padding: 1%;
+    width: 120%;
+    border-radius: 5px;
+
+}
+
+.specs {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    gap: 50px;
+    color: #fff;
+}
+
+.specs p {
+    font-size: 1.2rem;
+}
+
+.specs span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.star:hover {
+    color: #ff3366;
+}
+
+.rv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #000000;
+    color: white; /* Menambahkan warna putih untuk semua teks di footer */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+
+}
